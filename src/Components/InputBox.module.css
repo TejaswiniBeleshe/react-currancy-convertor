@@ -1,0 +1,37 @@
+.inputbox{
+    border: 1px solid rgb(192, 189, 192);
+    height: 30%;
+    border-radius: 5px;
+
+}
+.section{
+    /* border: 1px solid yellow; */
+    width: 50%;
+    position: relative;
+}
+p{ 
+    font-size: 1.1rem;
+    color: rgb(24, 23, 23);
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+input{
+    width:45%;
+    min-height: 55%;
+    border: none;
+    font-size: 1.3rem;
+    outline: none;
+}
+#type{
+    text-align: end;
+    
+}
+#selCoun{
+    width: 45%;
+    min-height: 55%;
+    /* border: 2px solid rgb(123, 121, 121); */
+    position: absolute;
+    right: 0;
+    font-size:1.2rem;
+    outline: none;
+}

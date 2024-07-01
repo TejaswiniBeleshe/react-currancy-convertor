@@ -1,0 +1,39 @@
+.mainbox{
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    height: 60%;
+    width: 40%;
+    box-shadow: 0 0 10px rgba(83, 81, 81, 0.5);
+    background-color: rgba(219, 215, 215,.5);
+    position: relative;
+    
+}
+#heading{
+    letter-spacing: .5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight:bold;
+    color: rgb(28, 26, 26);
+}
+.btn{
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+    background-color: rgb(115, 206, 209);
+    border: none;
+    border-radius: 8px;
+}
+.swapBtn{
+    width: 12%;
+    padding: .5rem;
+    border-radius: 5px;
+    background-color: rgb(191, 168, 229);
+    position: absolute;
+    left: 18rem;
+    top: 11rem;
+    border: none;
+    font-weight: 500;
+}
+.btn:active{
+    background-color: rgb(182, 189, 189);
+}
