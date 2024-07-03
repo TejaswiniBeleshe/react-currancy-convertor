@@ -18,8 +18,7 @@ const InputBox = ({ipName,Ctypes,setFromCur,FromCur,ToCur,setToCur,From,setFrom,
             }}>
                 {
                     Ctypes.map((ele)=>{
-                       return <option key={ele} value={ele}>{ele}</option>
-
+                       return <option key={ele} value={ele}>{ele.toUpperCase()}</option>
                     })
                 }  
             </select>
